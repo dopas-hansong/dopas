@@ -1,0 +1,4 @@
+/target
+/.externalToolBuilders/*
+/indexes/*
+/src/main/webapp/WEB-INF/classes/*
