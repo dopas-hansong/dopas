@@ -89,6 +89,13 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public Session getSession(){  
 	  return (Session) getEntityManager().getDelegate();
 	}
+	
+	/**
+	 * 强制与数据库同步
+	 */
+	public void flush(){
+		getSession().flush();
+	}
 
 	/**
 	 * 清除緩存

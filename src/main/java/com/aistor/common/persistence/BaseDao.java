@@ -37,6 +37,11 @@ public interface BaseDao<T> {
 	public Session getSession();
 	
 	/**
+	 * 强制与数据库同步
+	 */
+	public void flush();
+	
+	/**
 	 * 清除緩存
 	 */
 	public void clear();
