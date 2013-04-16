@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
 import com.aistor.common.persistence.BaseDao;
 import com.aistor.common.persistence.BaseDaoImpl;
 import com.aistor.modules.sys.entity.Area;
-
+ 
 /**
  * 区域DAO接口
  * @author Zaric
