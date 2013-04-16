@@ -16,7 +16,7 @@ import com.aistor.common.persistence.BaseDao;
 import com.aistor.common.persistence.BaseDaoImpl;
 import com.aistor.modules.sys.entity.Area;
  
-/**测试11233
+/**测试1123
  * 区域DAO接口
  * @author Zaric
  * @version 2013-01-15
